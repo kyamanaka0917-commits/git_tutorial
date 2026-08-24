@@ -1,1 +1,4 @@
-secret.txt
+# Ignore the history folder
+/.history/
+/*/.history/
+/secret.txt
