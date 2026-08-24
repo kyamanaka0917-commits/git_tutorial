@@ -1,8 +1,20 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "terminal.integrated.profiles.windows": {
+            "PowerShell - Workspace": {
+                "source": "PowerShell",
+                "args": [
+                    "-NoExit",
+                    "-Command",
+                    ". '${workspaceFolder}\\.vscode\\terminal-profile.ps1'"
+                ]
+            }
+        },
+        "terminal.integrated.defaultProfile.windows": "PowerShell - Workspace"
+    }
 }
